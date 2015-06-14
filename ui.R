@@ -28,5 +28,5 @@ shinyUI(fluidPage(theme = "bootstrap2.css",
             )),
         mainPanel(
             htmlOutput("view")
-            , width = 7
+            , width = 7)
   )
