@@ -82,6 +82,6 @@
 
 shinyServer(
     function(input, output) {
-        output$view <- renderGvis({Motion})
+        output$fishery <- renderGvis({Motion})
     }
 ) 
