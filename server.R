@@ -1,5 +1,3 @@
-
-# data source: http://www.statistics.gr/portal/page/portal/ESYE/PAGE-database
 > library(googleVis)
 
 > library(shiny)
