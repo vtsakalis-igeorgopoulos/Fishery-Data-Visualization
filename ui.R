@@ -23,7 +23,7 @@ shinyUI(fluidPage(
                    '"')
     ),
     mainPanel(
-      tableOutput('fishery')
+      plotOutput('fishery')
     )
   )
 ))
