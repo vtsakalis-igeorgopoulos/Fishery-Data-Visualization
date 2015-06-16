@@ -19,4 +19,3 @@ shinyUI(fluidPage(
         mainPanel(
             plotOutput("fishery"))
           
-    )   )            )
