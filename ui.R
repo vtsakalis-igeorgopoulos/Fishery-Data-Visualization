@@ -4,9 +4,7 @@ shinyUI(fluidPage(
 
     titlePanel("Fishery data"),
     sidebarLayout(position = "right",
-        sidebarPanel(
-            tabsetPanel(type = "tabs", 
-                        tabPanel("Description",
+        sidebarPanel(tabsetPanel(type = "tabs", tabPanel("Description",
                                  h5('The main purpose of this visualization is to indicate the variance of fishery in Greece between 2002 and 2006'),
                                  ),        
                         tabPanel("License",
@@ -16,6 +14,5 @@ shinyUI(fluidPage(
                                  br()
                         ) 
             )),
-        mainPanel(
-            plotOutput("fishery"))
+        mainPanel(plotOutput("fishery"))
           
