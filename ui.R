@@ -1,5 +1,5 @@
 library(shiny)
-shinyUI(fluidPage(theme = "bootstrap2.css",
+shinyUI(fluidPage(
     headerPanel("Fishery Data"),
     sidebarLayout(position = "right",
         sidebarPanel(
