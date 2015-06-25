@@ -9,6 +9,9 @@ Fishery_data=read.csv2("mydata2.csv", header = FALSE)
 
 col_names<-c("Quantity","Year","Region")
 
+#rename columns
+colnames(Fishery_data)<-col_names
+
 #display data
 > Fishery_data
    Quantity Year                       Region
@@ -72,9 +75,6 @@ col_names<-c("Quantity","Year","Region")
 58 13890144 2006              Northern Aegean
 59  6678135 2006              Southern Aegean
 60  1506763 2006                        Crete
-
-#rename columns
-colnames(Fishery_data)<-col_names
 
 #create motion
 Motion=gvisMotionChart(Fishery_data,idvar="Region",timevar="Year",options=list(state='{"colorOption":"_UNIQUE_COLOR","showTrails":false};'))
